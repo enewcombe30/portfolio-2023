@@ -7,6 +7,5 @@ export const MenuItems: Menu = {
     { name: "stack", label: "Stack" },
     { name: "projects", label: "Projects" },
     { name: "about", label: "about" },
-    { name: "learnMore", label: "Learn more" },
   ],
 };

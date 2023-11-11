@@ -29,7 +29,7 @@ export default function Menu({ isActive, setIsActive }: props) {
     <div className="w-[21.5rem] h-screen justify-between fixed left-0 px-10 pb-4 pt-8 bg-gradient-to-r from-[#061c03]">
       <div className="text-white text-[1.75rem] ">Elijah Newcombe</div>
       <div className="text-[#878c8d] text-[1.1rem] mb-[6rem]">
-        Junior Software Engineer
+        Junior Web Developer
       </div>
       <div className="pb-12 h-content my-auto">
         <div className="h-content">{renderMenuItems()}</div>
