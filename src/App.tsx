@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Homepage from "./Pages/Homepage/Homepage";
+import Experience from "./Pages/Experience/Experience";
 import BasicLayout from "./Pages/Layouts/BasicLayout";
 import { MenuItem } from "./types/type";
 import { MenuItems } from "./constants/menu";
@@ -12,7 +13,10 @@ export default function App() {
         selectedItem={selectedItem}
         setSelectedItem={setSelectedItem}
       >
-        <Homepage />
+        <>
+          <Homepage />
+          <Experience />
+        </>
       </BasicLayout>
     </div>
   );

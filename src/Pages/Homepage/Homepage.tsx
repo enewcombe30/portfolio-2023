@@ -1,16 +1,17 @@
 export default function Homepage() {
   return (
-    <div className="h-full xs:mx-auto mb-6">
+    <div className="h-full xs:mx-auto mb-6 ">
       <div className="w-full h-full xs:px-6 sm:px-12 py-10 text-lg max-w-[60rem] mx-auto overflow-y-scroll no-scrollbar">
-        <p className="text-[2.5rem] leading-[2.75rem] xs:mb-4 sm:mb-6">
-          Hello! I'm Elijah, a Junior Web Developer
+        <p className="text-[2.5rem] leading-[2.75rem] xs:mb-4 sm:mb-6 flex">
+          Hey, I'm Elijah, a Junior Web Developer
         </p>
         <p className="text-[1.5rem]">
           Combining Javascript, Typescript, TailwindCSS and React to bring
           websites to life!
         </p>
         <div className="bg-green-500 opacity-5 h-px w-full my-auto xs:my-4 sm:my-6"></div>
-        <div className="text-[#cdcbcb] space-y-4 pb-20">
+        {/* Move this section to the About page */}
+        {/* <div className="text-[#cdcbcb] space-y-4 pb-20">
           <p>
             Front End Web Developer certified with an MTA qualification in C#
             Fundamentals. Producing clean, maintainable and re-usable code.
@@ -31,7 +32,7 @@ export default function Homepage() {
             proved vital traits as a Developer.
           </p>
           <div className="bg-green-500 opacity-5 h-px w-full my-auto xs:mt-6 sm:mt-12"></div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

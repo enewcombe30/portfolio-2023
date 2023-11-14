@@ -7,13 +7,18 @@ export type Menu = {
   menu: MenuItem[];
 };
 
-export type PageLink = {
-  name: string;
-  label: string;
-  logo: string;
-  link: string;
+export type WorkExperience = {
+  experience: Experience[];
 };
 
-export type PageLinks = {
-  links: PageLink[];
+export type Experience = {
+  name: string;
+  label: string;
+  image: string;
+  blurb: string;
+  skills: Skills[];
+};
+
+export type Skills = {
+  skill: string;
 };

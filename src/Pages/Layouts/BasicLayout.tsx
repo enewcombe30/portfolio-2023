@@ -18,7 +18,7 @@ export default function BasicLayout({
 }: props) {
   return (
     <div
-      className={`h-full w-full bg-[#050f05] absolute left-0 bg-gradient-to-r from-[#061c03]`}
+      className={`h-full w-full bg-[#050f05] absolute left-0 bg-gradient-to-r from-[#4c8e43]`}
     >
       <div className=" text-[#f0f5f0] h-full flex">
         <div
@@ -37,15 +37,17 @@ export default function BasicLayout({
         </div>
         <div className="xs:mt-[4rem] sm:mt-[3rem] p-12 w-full h-full">
           <div className="flex w-full mb-2">
-            <div className="my-auto w-3 h-3 border border-green-500 border-opacity-20"></div>
-            <div className="my-auto text-sm ml-4">{selectedItem.label}</div>
+            <div className="my-auto w-3 h-3 border border-green-500 border-opacity-20 rounded-sm"></div>
+            <div className="my-auto text-sm ml-4">
+              {selectedItem.label || ""}
+            </div>
             <div className="bg-green-500 opacity-20 h-px w-full my-auto mx-4"></div>
           </div>
           <>{children}</>
         </div>
       </div>
       <div className="h-[3.5rem] pt-6 bg-[#050f05] bg-gradient-to-r from-[#061c03] w-full absolute bottom-0 text-[0.75rem] text-[#a7aaa7]">
-        <div className="absolute left-[2.5rem] bottom-4">
+        <div className="absolute left-[2.5rem] bottom-4 xs:hidden sm:block">
           <Toggle label="Toggle theme" labelPosition="right" />
         </div>
         <div className="absolute right-[3rem]">

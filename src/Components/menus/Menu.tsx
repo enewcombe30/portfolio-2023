@@ -26,7 +26,7 @@ export default function Menu({ selectedItem, setSelectedItem }: props) {
   }
 
   return (
-    <div className="max-w-[32rem] h-full left-0 px-10 pb-4 pt-8 ">
+    <div className="min-w-[18rem] max-w-[32rem] h-full left-0 px-10 pb-4 pt-8 ">
       <div className="text-white text-[1.75rem] ">Elijah Newcombe</div>
       <div className="text-[#878c8d] text-[1.1rem] mb-[5rem]">
         Junior Web Developer

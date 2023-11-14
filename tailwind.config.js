@@ -14,6 +14,10 @@ module.exports = {
       xl: "1200px",
       // => @media (min-width: 1200px) { ... }
     },
+    backgroundImage: {
+      "fern-image": "url('/src/Images/fernHomepage.png')",
+      "footer-texture": "url('/img/footer-texture.png')",
+    },
     extend: {},
   },
   plugins: [],
