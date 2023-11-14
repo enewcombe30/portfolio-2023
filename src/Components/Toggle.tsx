@@ -2,15 +2,23 @@ import { useState } from "react";
 
 interface props {
   label: string;
+  labelPosition?: string;
 }
 
-export default function Toggle({ label }: props) {
+export default function Toggle({ label, labelPosition }: props) {
   const [enabled, setEnabled] = useState<boolean>(false);
   return (
     <>
       <div className="w-content flex">
         <div
-          className="w-[4rem] h-[2rem] pl-1 pt-[0.2rem] rounded-full bg-[#091a09] border border-green-950"
+          className={`my-auto mr-2 text-xs text-[#878c8d] hidden ${
+            labelPosition === "left" && "!block"
+          }`}
+        >
+          {label}
+        </div>
+        <div
+          className="w-[4rem] h-[2rem] pl-1 pt-[0.2rem] rounded-full bg-[#091a09] border border-green-950 cursor-pointer"
           onClick={() => setEnabled(!enabled)}
         >
           <div
@@ -19,7 +27,13 @@ export default function Toggle({ label }: props) {
             }`}
           ></div>
         </div>
-        <div className="my-auto ml-2 text-xs text-[#878c8d]">{label}</div>
+        <div
+          className={`my-auto ml-2 text-xs text-[#878c8d] hidden ${
+            labelPosition === "right" && "!block"
+          }`}
+        >
+          {label}
+        </div>
       </div>
     </>
   );

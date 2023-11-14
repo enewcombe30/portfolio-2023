@@ -1,46 +1,37 @@
-import { HomePageLinks } from "../../constants/homepage";
-
 export default function Homepage() {
-  function renderLinks() {
-    const links = HomePageLinks.links.map((link, index) => {
-      return (
-        <div
-          key={index}
-          className={`w-[7.5rem] h-[2.5rem] rounded-full px-2 pt-2.5 bg-[#296921] text-sm cursor-pointer text-center `}
-        >
-          <span className="my-auto h-fit w-content">{link.label}</span>
-        </div>
-      );
-    });
-    return links;
-  }
   return (
-    <div className="my-[2rem] w-full">
-      <div className="w-full flex">
-        <div className="my-auto ml-1 w-3 h-3 border border-green-500 border-opacity-20"></div>
-        <div className="my-auto text-sm ml-4">Introduction</div>
-        <div className="bg-green-500 opacity-20 h-px w-full my-auto ml-4"></div>
-      </div>
-      <div className="w-full pl-11 py-10 text-lg space-y-6">
-        <p className="text-[2.5rem] leading-[2.75rem]">
+    <div className="h-full xs:mx-auto mb-6">
+      <div className="w-full h-full xs:px-6 sm:px-12 py-10 text-lg max-w-[60rem] mx-auto overflow-y-scroll no-scrollbar">
+        <p className="text-[2.5rem] leading-[2.75rem] xs:mb-4 sm:mb-6">
           Hello! I'm Elijah, a Junior Web Developer
         </p>
-        <p className="text-[1.5rem] max-w-[42rem]">
+        <p className="text-[1.5rem]">
           Combining Javascript, Typescript, TailwindCSS and React to bring
           websites to life!
         </p>
-        <p className="text-[#cdcbcb]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-      <div className="mt-[4rem] flex justify-between pl-11">
-        {renderLinks()}
+        <div className="bg-green-500 opacity-5 h-px w-full my-auto xs:my-4 sm:my-6"></div>
+        <div className="text-[#cdcbcb] space-y-4 pb-20">
+          <p>
+            Front End Web Developer certified with an MTA qualification in C#
+            Fundamentals. Producing clean, maintainable and re-usable code.
+          </p>
+          <p>
+            Junior Developer having spent the past year working with a small
+            start-up company called fern building automated IFTTT software for
+            Amazon Ad Agencies. During my time at fern, I gained hands on
+            experience using React.JS, TailwindCSS, Javascript, Typescript,
+            Cypress and Node.JS and am now looking to build on these skills in
+            my next role.
+          </p>
+          <p>
+            I have spent the majority of my professional life in a customer
+            orientated environment and thrive when working as part of a team. My
+            previous career in hospitality management has given me an excellent
+            work ethic, flexibility and keen problem solving skills which have
+            proved vital traits as a Developer.
+          </p>
+          <div className="bg-green-500 opacity-5 h-px w-full my-auto xs:mt-6 sm:mt-12"></div>
+        </div>
       </div>
     </div>
   );

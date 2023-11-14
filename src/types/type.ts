@@ -1,5 +1,3 @@
-import { ReactElement } from "react";
-
 export type MenuItem = {
   name: string;
   label: string;

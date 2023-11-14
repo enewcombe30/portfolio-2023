@@ -1,11 +1,19 @@
-import React from "react";
+import { useState } from "react";
 import Homepage from "./Pages/Homepage/Homepage";
 import BasicLayout from "./Pages/Layouts/BasicLayout";
+import { MenuItem } from "./types/type";
+import { MenuItems } from "./constants/menu";
 
 export default function App() {
+  const [selectedItem, setSelectedItem] = useState<MenuItem>(MenuItems.menu[0]);
   return (
-    <div>
-      <BasicLayout />
+    <div className="h-full w-full fixed bg-[#050f05]">
+      <BasicLayout
+        selectedItem={selectedItem}
+        setSelectedItem={setSelectedItem}
+      >
+        <Homepage />
+      </BasicLayout>
     </div>
   );
 }
