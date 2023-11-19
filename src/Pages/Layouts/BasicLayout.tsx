@@ -20,6 +20,10 @@ export default function BasicLayout({
     <div
       className={`h-full w-full bg-[#050f05] absolute left-0 bg-gradient-to-r from-[#4c8e43]`}
     >
+      <div className="border border-green-500 opacity-10 h-[6rem] w-[6rem] my-auto fixed left-[-3rem] top-[-1.25rem] transform rotate-45"></div>
+      <div className="border border-green-500 opacity-10 h-[6rem] w-[6rem] my-auto fixed left-[-2rem] top-[25rem] transform rotate-45"></div>
+      <div className="border border-green-500 opacity-10 h-[6rem] w-[6rem] my-auto fixed right-[-5rem] top-[8rem] transform rotate-45"></div>
+      <div className="border border-green-500 opacity-10 h-[5rem] w-[5rem] my-auto fixed right-[-2rem] bottom-[4.75rem] transform rotate-45"></div>
       <div className=" text-[#f0f5f0] h-full flex">
         <div
           className={`xs:block sm:hidden md:hidden xl:hidden absolute left-6 top-12 `}

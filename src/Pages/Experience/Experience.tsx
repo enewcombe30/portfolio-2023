@@ -16,8 +16,8 @@ export default function Experience() {
   }
 
   return (
-    <div className="my-[2rem] pb-[5rem] w-full h-full overflow-y-scroll no-scrollbar">
-      <div className="w-full pl-11 py-10 text-lg space-y-8 overflow-y-scroll no-scrollbar">
+    <div className="my-[2rem] pb-[5rem] w-full h-full overflow-y-scroll no-scrollbar ">
+      <div className="w-content py-10 text-lg space-y-8 overflow-y-scroll no-scrollbar mx-auto">
         <>{renderBlocks()}</>
       </div>
     </div>

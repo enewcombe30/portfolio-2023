@@ -28,7 +28,7 @@ export default function Toggle({ label, labelPosition }: props) {
           ></div>
         </div>
         <div
-          className={`my-auto ml-2 text-xs text-[#878c8d] hidden ${
+          className={`my-auto ml-2 text-[0.5rem] text-[#878c8d] hidden ${
             labelPosition === "right" && "!block"
           }`}
         >

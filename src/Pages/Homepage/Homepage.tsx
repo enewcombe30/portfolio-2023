@@ -1,17 +1,31 @@
 export default function Homepage() {
   return (
     <div className="h-full xs:mx-auto mb-6 ">
-      <div className="w-full h-full xs:px-6 sm:px-12 py-10 text-lg max-w-[60rem] mx-auto overflow-y-scroll no-scrollbar">
-        <p className="text-[2.5rem] leading-[2.75rem] xs:mb-4 sm:mb-6 flex">
-          Hey, I'm Elijah, a Junior Web Developer
-        </p>
-        <p className="text-[1.5rem]">
+      <div className="w-full h-screen py-10 max-w-[60rem] overflow-y-scroll no-scrollbar my-auto w-content">
+        <div className="xs:text-[2rem] sm:text-[2rem] md:text-[2.5rem] lg:text-[3rem] my-auto">
+          Hey, I'm Elijah,
+        </div>
+        <div className="xs:text-[2.25rem] sm:text-[2.25rem] md:text-[3rem] lg:text-[4.5rem] my-auto text-green-600">
+          Junior Web Developer
+        </div>
+        <div className="xs:mt-12 xs:block sm:hidden md:block">
+          <div className="bg-green-500 opacity-5 h-px w-full my-auto xs:my-4 sm:my-6"></div>
+          <div className="bg-green-500 opacity-5 h-px w-full my-auto xs:my-4 sm:my-6"></div>
+        </div>
+        <div className="bg-green-500 opacity-5 h-px w-full my-auto xs:my-4 sm:my-6"></div>
+        <div className="bg-green-500 opacity-5 h-px w-full my-auto xs:my-4 sm:my-6"></div>
+
+        <div className="xs:text-[0.825rem] sm:text-[1rem] md:text-[1.25rem] lg:text-[1.1] xs:my-8">
           Combining Javascript, Typescript, TailwindCSS and React to bring
           websites to life!
-        </p>
+        </div>
         <div className="bg-green-500 opacity-5 h-px w-full my-auto xs:my-4 sm:my-6"></div>
-        {/* Move this section to the About page */}
-        {/* <div className="text-[#cdcbcb] space-y-4 pb-20">
+        <div className="bg-green-500 opacity-5 h-px w-full my-auto xs:my-4 sm:my-6"></div>
+        <div className="bg-green-500 opacity-5 h-px w-full my-auto xs:my-4 sm:my-6"></div>
+        <div className="bg-green-500 opacity-5 h-px w-full my-auto xs:my-4 sm:my-6"></div>
+      </div>
+      {/* Move this section to the About page */}
+      {/* <div className="text-[#cdcbcb] space-y-4 pb-20">
           <p>
             Front End Web Developer certified with an MTA qualification in C#
             Fundamentals. Producing clean, maintainable and re-usable code.
@@ -33,7 +47,6 @@ export default function Homepage() {
           </p>
           <div className="bg-green-500 opacity-5 h-px w-full my-auto xs:mt-6 sm:mt-12"></div>
         </div> */}
-      </div>
     </div>
   );
 }
