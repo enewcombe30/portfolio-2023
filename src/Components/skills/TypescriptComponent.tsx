@@ -9,7 +9,7 @@ export default function TypescriptComponent() {
         <TypescriptLogo />
       </div>
       {open && (
-        <div className="relative bottom-[5.5rem] right-[16rem] h-fit w-[16rem] rounded-sm p-3 bg-[#061c03] border border-green-600 border-opacity-10 text-sm">
+        <div className="relative bottom-[5.5rem] right-[15.5rem] h-fit w-[15rem] rounded-sm p-3 bg-[#061c03] border border-green-600 border-opacity-10 text-sm">
           TypeScript
           <ul className="list-disc ml-4 mt-1">
             <li>1 year commercial experience</li>
