@@ -4,10 +4,10 @@ import SkillPath from "./SkillPath";
 export default function Skills() {
   return (
     <div className="w-full h-full p-10">
-      <div className="md:hidden lg:block">
+      <div className="xs:hidden sm:hidden md:hidden lg:block xl:block">
         <SkillCircle />
       </div>
-      <div className="md:block lg:hidden">
+      <div className="xs:block sm:block md:block lg:hidden xl:hidden">
         <SkillPath />
       </div>
     </div>
