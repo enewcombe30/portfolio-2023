@@ -1,13 +1,18 @@
-export default function TailwindLogo() {
+interface props {
+  onClick?: () => void;
+}
+
+export default function TailwindLogo({ onClick }: props) {
   return (
     <>
-      <div className="bg-[#0E1729] w-[5.5rem] h-[4rem] rounded-lg p-2 ">
+      <div className="relative left-[0.5rem]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 48 48"
-          width="72px"
+          viewBox="0 0 55 55"
+          width="68px"
           height="72px"
-          className="hover:animate-pulse cursor-help relative bottom-3"
+          className="hover:animate-pulse cursor-help"
+          onClick={onClick}
         >
           <path
             fill="#00acc1"

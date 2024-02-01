@@ -1,4 +1,8 @@
-export default function CssLogo() {
+interface props {
+  onClick?: () => void;
+}
+
+export default function CssLogo({ onClick }: props) {
   return (
     <>
       <svg
@@ -7,6 +11,7 @@ export default function CssLogo() {
         width="72px"
         height="72px"
         className="hover:animate-pulse cursor-help"
+        onClick={onClick}
       >
         <linearGradient
           id="TQDriqswrKwPOniLrPT12a"

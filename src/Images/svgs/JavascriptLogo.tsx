@@ -1,4 +1,8 @@
-export default function JavascriptLogo() {
+interface props {
+  onClick?: () => void;
+}
+
+export default function JavascriptLogo({ onClick }: props) {
   return (
     <>
       <svg
@@ -7,6 +11,7 @@ export default function JavascriptLogo() {
         width="72px"
         height="72px"
         className="hover:animate-pulse cursor-help"
+        onClick={onClick}
       >
         <path fill="#ffd600" d="M6,42V6h36v36H6z" />
         <path

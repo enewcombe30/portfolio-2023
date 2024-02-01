@@ -1,12 +1,17 @@
-export default function ReactLogo() {
+interface props {
+  onClick?: () => void;
+}
+
+export default function ReactLogo({ onClick }: props) {
   return (
     <>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 100 100"
-        width="106px"
-        height="106px"
+        width="69px"
+        height="72px"
         className="hover:animate-pulse cursor-help"
+        onClick={onClick}
       >
         <circle cx="50" cy="50" r="7" fill="#39c1d7" />
         <path

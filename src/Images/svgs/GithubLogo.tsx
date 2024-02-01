@@ -1,6 +1,6 @@
 export default function GithubLogo() {
   return (
-    <div className="bg-white h-[3.5rem] w-[3.5rem] rounded-full absolute outline outline-white">
+    <div className="bg-white h-[3.5rem] w-[3.5rem] rounded-full relative top-2">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 30 30"

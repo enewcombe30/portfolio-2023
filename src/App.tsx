@@ -15,8 +15,8 @@ export default function App() {
         setSelectedItem={setSelectedItem}
       >
         <>
-          {/* <Experience />
-          <Homepage /> */}
+          {/* <Experience /> */}
+          {/* <Homepage /> */}
           <Skills />
         </>
       </BasicLayout>

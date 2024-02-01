@@ -2,7 +2,7 @@ export default function DoubleLineDecoration() {
   return (
     <>
       <div className="flex w-full">
-        <div className="w-[5%] h-24">
+        <div className="w-[5%] h-24 mr-2">
           <div className="my-auto w-3 h-3 bg-green-500 opacity-10 rounded-sm mb-2"></div>
           <div className="my-auto w-3 h-3 bg-green-500 opacity-10 rounded-sm"></div>
         </div>
@@ -27,7 +27,7 @@ export default function DoubleLineDecoration() {
       <div className="flex w-full relative top-[-4rem]">
         <div className="h-48 w-[20%] border-t-[2rem] border-l-[2rem] border-b-[2rem] border-double border-green-500 border-opacity-10 rounded-l-full relative top-[-2rem]"></div>
         <div className="border-b-[2rem] border-double border-green-500 border-opacity-10 mt-16 h-24 w-[75%]"></div>
-        <div className="w-[5%] h-24 mt-32 relative left-3">
+        <div className="w-[5%] h-24 mt-32 ml-2">
           <div className="my-auto w-3 h-3 bg-green-500 opacity-10 rounded-sm mb-2"></div>
           <div className="my-auto w-3 h-3 bg-green-500 opacity-10 rounded-sm"></div>
         </div>
