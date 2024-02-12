@@ -18,7 +18,7 @@ export default function BasicLayout({
 }: props) {
   return (
     <div
-      className={`h-full w-full bg-[#050f05] absolute left-0 bg-gradient-to-r from-[#4c8e43]`}
+      className={`h-content w-full absolute top-0 bg-[#050f05] bg-gradient-to-r from-[#4c8e43]`}
     >
       <div className="border border-green-500 opacity-10 h-[6rem] w-[6rem] my-auto fixed left-[-3rem] top-[-1.25rem] transform rotate-45"></div>
       <div className="border border-green-500 opacity-10 h-[6rem] w-[6rem] my-auto fixed left-[-2rem] top-[25rem] transform rotate-45"></div>
@@ -39,7 +39,7 @@ export default function BasicLayout({
         <div className="xs:hidden sm:block md:block xl:block max-w-[32rem]">
           <Menu selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
         </div>
-        <div className="xs:mt-[4rem] sm:mt-[3rem] p-12 w-full h-full">
+        <div className="xs:mt-[4rem] sm:mt-[3rem] p-12 w-full h-fit">
           <div className="flex w-full mb-2">
             <div className="my-auto w-3 h-3 border border-green-500 border-opacity-20 rounded-sm"></div>
             <div className="my-auto text-sm ml-4">
@@ -47,10 +47,10 @@ export default function BasicLayout({
             </div>
             <div className="bg-green-500 opacity-20 h-px w-full my-auto mx-4"></div>
           </div>
-          <>{children}</>
+          <div className="h-full w-contnet mx-auto">{children}</div>
         </div>
       </div>
-      <div className="h-[3.5rem] pt-6 bg-[#050f05] bg-gradient-to-r from-[#061c03] w-full absolute bottom-0 text-[0.75rem] text-[#a7aaa7]">
+      <div className="h-[3.5rem] pt-6 bg-[#050f05] bg-gradient-to-r from-[#061c03] w-full fixed bottom-0 text-[0.75rem] text-[#a7aaa7]">
         <div className="absolute left-[2.5rem] bottom-4 xs:hidden sm:block">
           <Toggle label="Toggle theme" labelPosition="right" />
         </div>

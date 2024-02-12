@@ -10,9 +10,9 @@ import TailwindLogo from "../../Images/svgs/TailwindLogo";
 
 export default function SkillPath() {
   return (
-    <>
-      <div className="place-content-around pt-8 flex flex-wrap ">
-        <div className="flex w-[24.9rem]">
+    <div className="p-8 h-content min-h-screen mx-auto w-[90%]">
+      <div className="flex flex-wrap">
+        <div className="flex w-[24.9rem] my-4">
           <HtmlLogo />
           <div
             className={`relative h-fit min-h-[6rem] w-[18rem] rounded-sm p-3 bg-[#061c03] border border-green-600 border-opacity-10 text-sm`}
@@ -24,19 +24,19 @@ export default function SkillPath() {
             </ul>
           </div>
         </div>
-        <div className="flex w-[24.9rem]">
+        <div className="flex w-[24.9rem] my-4">
           <CssLogo />
           <div
             className={`relative h-fit min-h-[6rem] w-[18rem] rounded-sm p-3 bg-[#061c03] border border-green-600 border-opacity-10 text-sm ease-in-out duration-700 transition-opacity`}
           >
             CSS3
-            <ul className="list-disc ml-4 mt-1 ">
+            <ul className="list-disc ml-4 mt-1">
               <li>1 year Commercial experience</li>
               <li>2 years Personal project experience</li>
             </ul>
           </div>
         </div>
-        <div className="flex w-[24.9rem] pl-[0.3rem]">
+        <div className="flex w-[24.9rem] pl-[0.3rem] my-4">
           <JavascriptLogo />
           <div
             className={`relative h-fit min-h-[6rem] w-[18rem] rounded-sm p-3 bg-[#061c03] border border-green-600 border-opacity-10 text-sm`}
@@ -48,7 +48,7 @@ export default function SkillPath() {
             </ul>
           </div>
         </div>
-        <div className="flex w-[24.9rem] pl-2">
+        <div className="flex w-[24.9rem] pl-2 my-4">
           <GithubLogo />
           <div
             className={`relative h-fit min-h-[6rem] w-[18rem] rounded-sm ml-2 p-3 bg-[#061c03] border border-green-600 border-opacity-10 text-sm`}
@@ -60,7 +60,7 @@ export default function SkillPath() {
             </ul>
           </div>
         </div>
-        <div className="flex w-[24.9rem]">
+        <div className="flex w-[24.9rem] my-4">
           <NodeJsLogo />
           <div
             className={`relative h-fit min-h-[6rem] w-[18rem] rounded-sm p-3 bg-[#061c03] border border-green-600 border-opacity-10 text-sm`}
@@ -71,7 +71,7 @@ export default function SkillPath() {
             </ul>
           </div>
         </div>
-        <div className="flex mr-[-0.45rem] w-[24.9rem]">
+        <div className="flex mr-[-0.45rem] w-[24.9rem] my-4">
           <WordpressLogo />
           <div
             className={`relative h-fit min-h-[6rem] w-[18rem] rounded-sm p-3 bg-[#061c03] border border-green-600 border-opacity-10 text-sm`}
@@ -82,7 +82,7 @@ export default function SkillPath() {
             </ul>
           </div>
         </div>
-        <div className="flex w-[24.9rem]">
+        <div className="flex w-[24.9rem] my-4">
           <ReactLogo />
           <div
             className={`relative h-fit min-h-[6rem] w-[18rem] rounded-sm p-2 ml-1 bg-[#061c03] border border-green-600 border-opacity-10 text-sm`}
@@ -93,7 +93,7 @@ export default function SkillPath() {
             </ul>
           </div>
         </div>
-        <div className="flex pl-1 w-[24.9rem]">
+        <div className="flex pl-1 w-[24.9rem] my-4">
           <TypescriptLogo />
           <div
             className={`relative h-fit min-h-[6rem] w-[18rem] rounded-sm p-3 bg-[#061c03] border border-green-600 border-opacity-10 text-sm`}
@@ -104,7 +104,7 @@ export default function SkillPath() {
             </ul>
           </div>
         </div>
-        <div className="flex w-[24.9rem] pl-[0.2rem]">
+        <div className="flex w-[24.9rem] pl-[0.2rem] my-4">
           <span className="mr-2">
             <TailwindLogo />
           </span>
@@ -118,6 +118,6 @@ export default function SkillPath() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

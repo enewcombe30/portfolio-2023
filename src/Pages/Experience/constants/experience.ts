@@ -1,6 +1,6 @@
 import { Experience, WorkExperience } from "../../../types/type";
-import fernImage from "../../../Images/fernLogo.png";
-import cadenceLogo from "../../../Images/cadenceLogo.png";
+import fernImage from "./fernLogo.png";
+import cadenceLogo from "./cadenceLogo.png";
 
 export const FERN: Experience = {
   name: "fern",

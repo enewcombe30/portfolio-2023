@@ -8,7 +8,7 @@ export default function JavascriptLogo({ onClick }: props) {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 48 48"
-        width="72px"
+        width="68px"
         height="72px"
         className="hover:animate-pulse cursor-help"
         onClick={onClick}
