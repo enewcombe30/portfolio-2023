@@ -8,7 +8,6 @@ import { MenuItems } from "./constants/menu";
 
 export default function App() {
   const [selectedItem, setSelectedItem] = useState<MenuItem>(MenuItems.menu[0]);
-  console.log("item", selectedItem);
   return (
     <div className="h-full w-full bg-[#050f05]">
       <BasicLayout
