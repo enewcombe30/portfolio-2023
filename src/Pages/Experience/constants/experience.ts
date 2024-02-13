@@ -19,7 +19,7 @@ export const FERN: Experience = {
     },
     {
       skill:
-        "Created a web scrapping process using Node.JS to generate lists of brands and agencies for the sales team to approach. ",
+        "Designing, Building and Maintaining Unit Tests to ensure helper functions are properly built and catch bugs in the code or data.  ",
     },
     {
       skill:
