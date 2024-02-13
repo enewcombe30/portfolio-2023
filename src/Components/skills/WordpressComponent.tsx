@@ -1,5 +1,5 @@
 import { useState } from "react";
-import WordpressLogo from "../../Images/svgs/WordpressLogo";
+import WordpressLogo from "../../Pages/Stack/constants/Svgs/WordpressLogo";
 
 interface props {
   tipPosition?: string;

@@ -1,12 +1,12 @@
-import CssLogo from "../../Images/svgs/CssLogo";
-import HtmlLogo from "../../Images/svgs/HtmlLogo";
-import JavascriptLogo from "../../Images/svgs/JavascriptLogo";
-import GithubLogo from "../../Images/svgs/GithubLogo";
-import NodeJsLogo from "../../Images/svgs/NodeJsLogo";
-import WordpressLogo from "../../Images/svgs/WordpressLogo";
-import ReactLogo from "../../Images/svgs/ReactLogo";
-import TypescriptLogo from "../../Images/svgs/TypescriptLogo";
-import TailwindLogo from "../../Images/svgs/TailwindLogo";
+import CssLogo from "./constants/Svgs/CssLogo";
+import HtmlLogo from "./constants/Svgs/HtmlLogo";
+import JavascriptLogo from "./constants/Svgs/JavascriptLogo";
+import GithubLogo from "./constants/Svgs/GithubLogo";
+import NodeJsLogo from "./constants/Svgs/NodeJsLogo";
+import WordpressLogo from "./constants/Svgs/WordpressLogo";
+import ReactLogo from "./constants/Svgs/ReactLogo";
+import TypescriptLogo from "./constants/Svgs/TypescriptLogo";
+import TailwindLogo from "./constants/Svgs/TailwindLogo";
 
 export default function Skills() {
   return (

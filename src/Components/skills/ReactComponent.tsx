@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ReactLogo from "../../Images/svgs/ReactLogo";
+import ReactLogo from "../../Pages/Stack/constants/Svgs/ReactLogo";
 
 interface props {
   tipPosition?: string;

@@ -9,7 +9,6 @@ export default function MenuIcon({
 }: props) {
   return (
     <svg
-      className="cursor-pointer"
       height="32px"
       id="Layer_1"
       version="1.1"

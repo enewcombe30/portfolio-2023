@@ -11,8 +11,6 @@ export default function NodeJsLogo({ onClick }: props) {
         width="70px"
         height="72px"
         baseProfile="basic"
-        className="hover:animate-pulse cursor-help"
-        onClick={onClick}
       >
         <path
           fill="#21a366"

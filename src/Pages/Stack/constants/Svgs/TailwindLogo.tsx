@@ -11,8 +11,6 @@ export default function TailwindLogo({ onClick }: props) {
           viewBox="0 0 55 55"
           width="68px"
           height="72px"
-          className="hover:animate-pulse cursor-help"
-          onClick={onClick}
         >
           <path
             fill="#00acc1"

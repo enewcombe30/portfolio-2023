@@ -10,8 +10,6 @@ export default function WordpressLogo({ onClick }: props) {
         viewBox="0 0 50 50"
         width="72px"
         height="72px"
-        className="hover:animate-pulse cursor-help"
-        onClick={onClick}
       >
         <path
           fill="#fff"

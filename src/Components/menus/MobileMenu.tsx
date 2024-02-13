@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { MenuItems } from "../../constants/menu";
-import MenuIcon from "../../Images/svgs/MenuIcon";
-import CrossIcon from "../../Images/svgs/CrossIcon";
+import MenuIcon from "../../Pages/Stack/constants/Svgs/MenuIcon";
+import CrossIcon from "../../Pages/Stack/constants/Svgs/CrossIcon";
 import Toggle from "../Toggle";
 import { MenuItem } from "../../types/type";
 

@@ -1,3 +1,6 @@
+import { ReactElement } from "react";
+import { JsxElement } from "typescript";
+
 export type MenuItem = {
   name: string;
   label: string;
@@ -30,7 +33,7 @@ export type Stack = {
 export type StackItem = {
   name: string;
   label: string;
-  logo: string;
+  logo: ReactElement;
   commercialExp: string;
   personalExp: string;
 };

@@ -10,8 +10,6 @@ export default function JavascriptLogo({ onClick }: props) {
         viewBox="0 0 48 48"
         width="68px"
         height="72px"
-        className="hover:animate-pulse cursor-help"
-        onClick={onClick}
       >
         <path fill="#ffd600" d="M6,42V6h36v36H6z" />
         <path

@@ -1,8 +1,4 @@
-interface props {
-  onClick?: () => void;
-}
-
-export default function HtmlLogo({ onClick }: props) {
+export default function HtmlLogo() {
   return (
     <>
       <svg
@@ -10,8 +6,6 @@ export default function HtmlLogo({ onClick }: props) {
         viewBox="0 0 48 48"
         width="72px"
         height="72px"
-        className="hover:animate-pulse cursor-help"
-        onClick={onClick}
       >
         <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z" />
         <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z" />

@@ -10,8 +10,6 @@ export default function CssLogo({ onClick }: props) {
         viewBox="0 0 48 48"
         width="72px"
         height="72px"
-        className="hover:animate-pulse cursor-help"
-        onClick={onClick}
       >
         <linearGradient
           id="TQDriqswrKwPOniLrPT12a"
