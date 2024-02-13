@@ -22,3 +22,15 @@ export type Experience = {
 export type Skills = {
   skill: string;
 };
+
+export type Stack = {
+  stack: StackItem[];
+};
+
+export type StackItem = {
+  name: string;
+  label: string;
+  logo: string;
+  commercialExp: string;
+  personalExp: string;
+};

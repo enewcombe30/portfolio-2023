@@ -1,5 +1,3 @@
-// import React from "react";
-
 import { ExperienceList } from "./constants/experience";
 import ExperienceBlock from "./ExperienceBlock";
 
