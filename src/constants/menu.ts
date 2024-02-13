@@ -6,6 +6,6 @@ export const MenuItems: Menu = {
     { name: "experience", label: "Experience" },
     { name: "stack", label: "Stack" },
     { name: "projects", label: "Projects" },
-    { name: "about", label: "about" },
+    { name: "about", label: "About" },
   ],
 };
