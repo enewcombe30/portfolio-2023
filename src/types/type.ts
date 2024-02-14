@@ -34,6 +34,7 @@ export type StackItem = {
   name: string;
   label: string;
   logo: ReactElement;
+  description: string;
   commercialExp: string;
   personalExp: string | null;
 };

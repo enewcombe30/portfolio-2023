@@ -3,8 +3,8 @@ export default function CrossIcon() {
     <div>
       <svg
         fill="#000000"
-        height="18px"
-        width="18px"
+        height="14px"
+        width="14px"
         version="1.1"
         id="Capa_1"
         viewBox="0 0 460.775 460.775"
