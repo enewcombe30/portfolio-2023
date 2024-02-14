@@ -1,8 +1,4 @@
-interface props {
-  onClick?: () => void;
-}
-
-export default function ReactLogo({ onClick }: props) {
+export default function ReactLogo() {
   return (
     <>
       <svg

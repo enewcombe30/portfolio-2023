@@ -1,8 +1,4 @@
-interface props {
-  onClick?: () => void;
-}
-
-export default function CssLogo({ onClick }: props) {
+export default function CssLogo() {
   return (
     <>
       <svg

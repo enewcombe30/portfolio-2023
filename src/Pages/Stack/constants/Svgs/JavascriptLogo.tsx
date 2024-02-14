@@ -1,8 +1,4 @@
-interface props {
-  onClick?: () => void;
-}
-
-export default function JavascriptLogo({ onClick }: props) {
+export default function JavascriptLogo() {
   return (
     <>
       <svg
@@ -10,6 +6,7 @@ export default function JavascriptLogo({ onClick }: props) {
         viewBox="0 0 48 48"
         width="68px"
         height="72px"
+        className="ml-[0.3rem]"
       >
         <path fill="#ffd600" d="M6,42V6h36v36H6z" />
         <path

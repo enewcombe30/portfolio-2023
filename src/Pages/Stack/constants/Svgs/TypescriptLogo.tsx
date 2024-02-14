@@ -6,6 +6,7 @@ export default function TypescriptLogo() {
         viewBox="0 0 48 48"
         width="70px"
         height="72px"
+        className="ml-1"
       >
         <rect width="36" height="36" x="6" y="6" fill="#1976d2" />
         <polygon

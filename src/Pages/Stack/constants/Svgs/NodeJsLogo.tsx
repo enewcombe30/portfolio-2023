@@ -1,8 +1,4 @@
-interface props {
-  onClick?: () => void;
-}
-
-export default function NodeJsLogo({ onClick }: props) {
+export default function NodeJsLogo() {
   return (
     <>
       <svg
@@ -11,6 +7,7 @@ export default function NodeJsLogo({ onClick }: props) {
         width="70px"
         height="72px"
         baseProfile="basic"
+        className="ml-1"
       >
         <path
           fill="#21a366"

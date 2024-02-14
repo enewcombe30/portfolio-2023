@@ -1,8 +1,4 @@
-interface props {
-  onClick?: () => void;
-}
-
-export default function WordpressLogo({ onClick }: props) {
+export default function WordpressLogo() {
   return (
     <>
       <svg

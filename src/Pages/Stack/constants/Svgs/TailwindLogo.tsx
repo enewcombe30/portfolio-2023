@@ -1,14 +1,10 @@
-interface props {
-  onClick?: () => void;
-}
-
-export default function TailwindLogo({ onClick }: props) {
+export default function TailwindLogo() {
   return (
     <>
-      <div className="relative left-[0.5rem]">
+      <div className="relative left-[0.5rem] ml-[0.2rem]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 55 55"
+          viewBox="0 0 60 60"
           width="68px"
           height="72px"
         >
