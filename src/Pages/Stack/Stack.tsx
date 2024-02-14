@@ -9,7 +9,7 @@ export default function Skills() {
       return (
         <div>
           <div
-            className="flex w-[24rem] my-4"
+            className="flex w-[24rem] my-4 cursor-pointer"
             key={index}
             onClick={() => setOpenModal(item.name)}
           >
