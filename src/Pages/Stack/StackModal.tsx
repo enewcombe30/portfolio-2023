@@ -30,6 +30,7 @@ export default function StackModal({ stackItem, setOpen }: props) {
                 <div className="bg-green-500 opacity-20 h-px w-full my-auto mx-4"></div>
               </div>
               <div className="my-2">{stackItem.description}</div>
+              <div className="bg-green-500 opacity-20 h-px w-full my-auto mb-4"></div>
               <ul className="list-disc ml-4 mt-1 ">
                 {stackItem.commercialExp && <li>{stackItem.commercialExp}</li>}
                 {stackItem.personalExp && <li>{stackItem.personalExp}</li>}
