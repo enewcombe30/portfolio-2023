@@ -1,5 +1,4 @@
 import { ReactElement } from "react";
-import { JsxElement } from "typescript";
 
 export type MenuItem = {
   name: string;
@@ -37,4 +36,35 @@ export type StackItem = {
   description: string;
   commercialExp: string;
   personalExp: string | null;
+};
+
+export type projectScreenshot = {
+  name: string;
+  image: string;
+};
+
+export type projectLogo = {
+  name: string;
+  label: string;
+  logo: string;
+};
+
+export type projectDetailBlock = {
+  name: string;
+  label: string;
+  description: projectDetail[];
+};
+export type projectDetail = {
+  line: string;
+};
+
+export type projectBlock = {
+  screenshots: projectScreenshot[];
+  logo: projectLogo;
+  projectBlurb: string;
+  detail: projectDetailBlock[];
+};
+
+export type projects = {
+  projects: projectBlock[];
 };
