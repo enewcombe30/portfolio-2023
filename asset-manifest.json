@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio-2023/static/css/main.41de6ea6.css",
-    "main.js": "/portfolio-2023/static/js/main.79d96ecc.js",
+    "main.css": "/portfolio-2023/static/css/main.c549f53e.css",
+    "main.js": "/portfolio-2023/static/js/main.2ca4e91e.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio-2023/static/js/787.7da95b79.chunk.js",
     "static/media/cadenceLogo.png": "/portfolio-2023/static/media/cadenceLogo.3e32855607bd4563e77c.png",
     "index.html": "/portfolio-2023/index.html",
-    "main.41de6ea6.css.map": "/portfolio-2023/static/css/main.41de6ea6.css.map",
-    "main.79d96ecc.js.map": "/portfolio-2023/static/js/main.79d96ecc.js.map",
+    "main.c549f53e.css.map": "/portfolio-2023/static/css/main.c549f53e.css.map",
+    "main.2ca4e91e.js.map": "/portfolio-2023/static/js/main.2ca4e91e.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio-2023/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41de6ea6.css",
-    "static/js/main.79d96ecc.js"
+    "static/css/main.c549f53e.css",
+    "static/js/main.2ca4e91e.js"
   ]
 }
