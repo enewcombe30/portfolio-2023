@@ -1,32 +1,43 @@
 import { projects } from "../../../types/type";
 import fernImage from "../../../images/fernLogo.png";
+import pairGameLogo from "../../../images/pairgameLogo.png";
+import portfolio2021 from "../../../images/portfolio-2021.png";
+import underConstruction from "../../../images/UnderConstruction.png";
 
 export const myProjects: projects = {
   projects: [
     {
-      screenshots: [
-        { name: "image1", image: "Image 1" },
-        { name: "image2", image: "Image 2" },
-      ],
-      logo: { name: "fern", label: "fern.ai", logo: fernImage },
-      projectBlurb: "This is the blurb for styling purposes",
-      detail: [
-        {
-          name: "detail1",
-          label: "Detail 1",
-          description: [{ line: "detail here" }, { line: "detail here" }],
-        },
-        {
-          name: "detail2",
-          label: "Detail 2",
-          description: [{ line: "detail here" }, { line: "detail here" }],
-        },
-      ],
+      name: "fern",
+      label: "Fern.ai",
+      logo: fernImage,
+      link: "https://www.meetfern.ai/",
+      styles: "",
     },
-    // {
-    //   screenshots: [{ name: "", image: "" }],
-    //   logo: { name: "", logo: "" },
-    //   detail: [{ name: "", label: "", description: [{line: ''},{line: ""}] }],
-    // },
+    {
+      name: "pairGame",
+      label: "Pair Game",
+      logo: pairGameLogo,
+      link: "https://enewcombe30.github.io/Project-2-pair-game-2021/",
+      styles: "",
+    },
+    {
+      name: "portfolio2021",
+      label: "Portfolio-2021",
+      logo: portfolio2021,
+      link: "https://enewcombe30.github.io/Portfolio-2021/",
+      styles: "",
+    },
+    {
+      name: "boardHeroes",
+      label: "Board Heroes",
+      logo: underConstruction,
+      link: "https://github.com/enewcombe30/board-heroes",
+      styles: "line-through",
+    },
   ],
 };
+// {
+//   screenshots: [{ name: "", image: "" }],
+//   logo: { name: "", logo: "" },
+//   detail: [{ name: "", label: "", description: [{line: ''},{line: ""}] }],
+// },

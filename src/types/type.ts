@@ -38,33 +38,46 @@ export type StackItem = {
   personalExp: string | null;
 };
 
-export type projectScreenshot = {
-  name: string;
-  image: string;
+export type projects = {
+  projects: project[];
 };
 
-export type projectLogo = {
+export type project = {
   name: string;
   label: string;
   logo: string;
+  link: string;
+  styles: string;
 };
 
-export type projectDetailBlock = {
-  name: string;
-  label: string;
-  description: projectDetail[];
-};
-export type projectDetail = {
-  line: string;
-};
+// { below type structure to be used for stack rethink}
+// export type projectScreenshot = {
+//   name: string;
+//   image: string;
+// };
 
-export type projectBlock = {
-  screenshots: projectScreenshot[];
-  logo: projectLogo;
-  projectBlurb: string;
-  detail: projectDetailBlock[];
-};
+// export type projectLogo = {
+//   name: string;
+//   label: string;
+//   logo: string;
+// };
 
-export type projects = {
-  projects: projectBlock[];
-};
+// export type projectDetailBlock = {
+//   name: string;
+//   label: string;
+//   description: projectDetail[];
+// };
+// export type projectDetail = {
+//   line: string;
+// };
+
+// export type projectBlock = {
+//   screenshots: projectScreenshot[];
+//   logo: projectLogo;
+//   projectBlurb: string;
+//   detail: projectDetailBlock[];
+// };
+
+// export type projects = {
+//   projects: projectBlock[];
+// };
