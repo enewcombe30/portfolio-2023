@@ -34,7 +34,9 @@ export default function Skills() {
       return (
         <>
           {openModal === item.name && (
-            <StackModal setOpen={setOpenModal} stackItem={item} key={index} />
+            <div className="">
+              <StackModal setOpen={setOpenModal} stackItem={item} key={index} />
+            </div>
           )}
         </>
       );
