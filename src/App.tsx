@@ -21,7 +21,6 @@ export default function App() {
           {selectedItem.name === "experience" && <Experience />}
           {selectedItem.name === "stack" && <Stack />}
           {selectedItem.name === "projects" && <Projects />}
-          {selectedItem.name === "about" && <About />}
         </>
       </BasicLayout>
     </div>
