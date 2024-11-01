@@ -3,6 +3,8 @@ import fernImage from "../../../images/fernLogo.png";
 import pairGameLogo from "../../../images/pairgameLogo.png";
 import portfolio2021 from "../../../images/portfolio-2021.png";
 import underConstruction from "../../../images/UnderConstruction.png";
+import localWeather from "../../../images/Local weather thumbnail.png";
+import jellyBean from "../../../images/Jelly Bean Screenshot.png";
 
 export const myProjects: projects = {
   projects: [
@@ -22,9 +24,23 @@ export const myProjects: projects = {
     },
     {
       name: "portfolio2021",
-      label: "Portfolio-2021",
+      label: "Portfolio 2021",
       logo: portfolio2021,
       link: "https://enewcombe30.github.io/Portfolio-2021/",
+      styles: "",
+    },
+    {
+      name: "localWeather",
+      label: "Local Weather",
+      logo: localWeather,
+      link: "https://enewcombe30.github.io/Local-Weather/",
+      styles: "",
+    },
+    {
+      name: "jellyBean",
+      label: "Jelly Bean Wiki",
+      logo: jellyBean,
+      link: "https://enewcombe30.github.io/jelly-bean/",
       styles: "",
     },
     {
