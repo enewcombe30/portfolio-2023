@@ -27,10 +27,6 @@ export default function Menu({ selectedItem, setSelectedItem }: props) {
 
   return (
     <div className="md:min-w-[4rem] lg:min-w-[16rem] max-w-[32rem] h-full left-0 px-8 pb-4 pt-12 ">
-      {/* <div className="text-white text-[1.75rem] ">Elijah Newcombe</div>
-      <div className="text-[#878c8d] text-[1.1rem] mb-[5rem]">
-        Junior Web Developer
-      </div> */}
       <div className="pb-12 h-content my-auto mt-12">
         <div className="h-content">{renderMenuItems()}</div>
       </div>

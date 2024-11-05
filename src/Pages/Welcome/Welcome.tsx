@@ -6,7 +6,7 @@ export default function WelcomePage() {
           Hey, I'm Elijah,
         </div>
         <div className="xs:text-[2.25rem] sm:text-[2.25rem] md:text-[3rem] lg:text-[4.5rem] my-auto text-green-600">
-          Junior Web Developer
+          Frontend Web Developer
         </div>
         <div className="xs:text-[0.825rem] sm:text-[1rem] md:text-[1.25rem] lg:text-[1.1] md:my-10 sm:my-6 xs:my-8">
           Combining Javascript, Typescript, TailwindCSS and React to bring

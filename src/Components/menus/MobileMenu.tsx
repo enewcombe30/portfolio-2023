@@ -55,7 +55,7 @@ export default function MobileMenu({ selectedItem, setSelectedItem }: props) {
           <div className="mt-[3rem] pl-5">
             <div className="text-white text-[2.25rem] ">Elijah Newcombe</div>
             <div className="text-[#878c8d] text-[1.5rem] mb-[7rem]">
-              Junior Web Developer
+              Frontend Web Developer
             </div>
             <div className="h-content my-auto">
               <div className="h-content">{renderMenuItems()}</div>
