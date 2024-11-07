@@ -11,9 +11,9 @@ export default function About() {
           using Git and GitHub with a full understanding of UX and UI.
         </div>
         <div className="border border-green-500 border-opacity-20 bg-green-500 bg-opacity-20 rounded-lg p-10 w-full">
-          Junior Developer having spent the past year working with a small
-          start-up company called fern building automated IFTTT software for
-          Amazon Ad Agencies. During my time at fern, I gained hands on
+          Front End Web Developer having spent the past year working with a
+          small start-up company called fern building automated IFTTT software
+          for Amazon Ad Agencies. During my time at fern, I gained hands on
           experience using React.JS, TailwindCSS, Javascript, Typescript,
           Cypress and Node.JS and am now looking to build on these skills in my
           next role.

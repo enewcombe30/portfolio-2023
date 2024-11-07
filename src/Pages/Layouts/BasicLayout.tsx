@@ -52,7 +52,7 @@ export default function BasicLayout({
       </div>
       <div className="h-[3.5rem] pt-6 bg-[#050f05] bg-gradient-to-r from-[#061c03] w-full fixed bottom-0 text-[0.75rem] text-[#a7aaa7]">
         <div className="absolute left-[2.5rem] bottom-4 xs:hidden sm:block">
-          <Toggle label="Toggle theme" labelPosition="right" />
+          {/* <Toggle label="Toggle theme" labelPosition="right" /> */}
         </div>
         <div className="absolute right-[3rem]">
           Copyright @ 2023 ElijahNewcombe.com
