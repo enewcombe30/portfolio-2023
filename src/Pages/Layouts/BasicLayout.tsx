@@ -45,7 +45,7 @@ export default function BasicLayout({
             </div>
             <div className="bg-green-500 opacity-20 h-px w-full my-auto mx-4"></div>
           </div>
-          <div className="max-h-screen h-full mx-auto sm:ml-[12rem] sm:mr-[4rem] xs:ml-[2.5rem] xs:mr-[1rem] py-[2rem]">
+          <div className="max-h-screen h-full mx-auto sm:ml-[12rem] sm:mr-[4rem] xs:ml-[2.5rem] xs:mr-[2rem] py-[2rem]">
             {children}
           </div>
         </div>

@@ -26,17 +26,17 @@ export default function ExperienceBlock({ experience }: props) {
         <div className="sm:flex-none md:flex-none lg:flex w-full sm:space-x-0 md:space-x-0 lg:space-x-8 mb-4 py-2">
           <div className="py-1 min-h-[6rem] my-auto mx-auto">
             <img
-              className="opacity-95 rounded-lg mx-auto mb-6 max-w-[20.5rem] min-w-[6rem]"
+              className="rounded-lg mx-auto mb-6 max-w-[20.5rem] min-w-[6rem]"
               src={experience.image}
               alt="Experience logo"
             />
           </div>
-          <div className="w-full min-w-[9rem] text-[1rem] min-h-[6rem]">
+          <div className="w-full min-w-[9rem] text-[1rem] min-h-[6rem] px-4">
             {experience.blurb}
           </div>
         </div>
         <div className="bg-green-500 opacity-20 h-px w-full my-auto xs:my-1 sm:my-3"></div>
-        <div className="w-full">{renderSkills()}</div>
+        <div className="w-full px-4">{renderSkills()}</div>
       </div>
     </>
   );

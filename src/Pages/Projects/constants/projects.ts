@@ -9,10 +9,10 @@ import jellyBean from "../../../images/Jelly Bean Screenshot.png";
 export const myProjects: projects = {
   projects: [
     {
-      name: "fern",
-      label: "Fern.ai",
-      logo: fernImage,
-      link: "https://www.meetfern.ai/",
+      name: "portfolio2021",
+      label: "2021 Portfolio",
+      logo: portfolio2021,
+      link: "https://enewcombe30.github.io/Portfolio-2021/",
       styles: "",
     },
     {
@@ -20,13 +20,6 @@ export const myProjects: projects = {
       label: "Pair Game",
       logo: pairGameLogo,
       link: "https://enewcombe30.github.io/Project-2-pair-game-2021/",
-      styles: "",
-    },
-    {
-      name: "portfolio2021",
-      label: "Portfolio 2021",
-      logo: portfolio2021,
-      link: "https://enewcombe30.github.io/Portfolio-2021/",
       styles: "",
     },
     {

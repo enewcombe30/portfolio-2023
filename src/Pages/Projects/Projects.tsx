@@ -9,9 +9,9 @@ export default function Projects() {
             <a href={project.link} target="_blank" key={index}>
               <div className="cursor-pointer rounded-lg sm:p-2 md:p-4 border bg-[#061c03] border-green-500 border-opacity-10 w-[22rem] h-fit my-auto mb-6">
                 <img
-                  className="opacity-95 rounded-lg w-[20rem] h-[9.5rem] mx-auto mt-3"
+                  className="rounded-lg w-[20rem] h-[9.5rem] mx-auto mt-3"
                   src={project.logo}
-                  alt="Fren logo"
+                  alt={`Project ${index} logo`}
                 />
                 <div className={`mx-auto w-fit text-xl mt-4 ${project.styles}`}>
                   {project.label}
