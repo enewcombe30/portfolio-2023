@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-2023/static/css/main.d678b130.css",
-    "main.js": "/portfolio-2023/static/js/main.fc15c532.js",
+    "main.css": "/portfolio-2023/static/css/main.e6f27562.css",
+    "main.js": "/portfolio-2023/static/js/main.53dc1eb0.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio-2023/static/js/787.7da95b79.chunk.js",
     "static/media/portfolio-2021.png": "/portfolio-2023/static/media/portfolio-2021.ddcb0daa9a294554ef43.png",
     "static/media/UnderConstruction.png": "/portfolio-2023/static/media/UnderConstruction.f924d5783ef9dd58aa01.png",
@@ -10,12 +10,12 @@
     "static/media/Local weather thumbnail.png": "/portfolio-2023/static/media/Local weather thumbnail.c3265a6125428aa59712.png",
     "static/media/cadenceLogo.png": "/portfolio-2023/static/media/cadenceLogo.3e32855607bd4563e77c.png",
     "index.html": "/portfolio-2023/index.html",
-    "main.d678b130.css.map": "/portfolio-2023/static/css/main.d678b130.css.map",
-    "main.fc15c532.js.map": "/portfolio-2023/static/js/main.fc15c532.js.map",
+    "main.e6f27562.css.map": "/portfolio-2023/static/css/main.e6f27562.css.map",
+    "main.53dc1eb0.js.map": "/portfolio-2023/static/js/main.53dc1eb0.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio-2023/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d678b130.css",
-    "static/js/main.fc15c532.js"
+    "static/css/main.e6f27562.css",
+    "static/js/main.53dc1eb0.js"
   ]
 }
