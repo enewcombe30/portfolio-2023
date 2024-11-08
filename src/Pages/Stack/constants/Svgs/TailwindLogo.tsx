@@ -1,7 +1,7 @@
 export default function TailwindLogo() {
   return (
     <>
-      <div className="relative left-[0.5rem] ml-[0.2rem]">
+      <div className="left-[0.5rem] ml-[0.2rem]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 60 60"
