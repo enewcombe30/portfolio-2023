@@ -17,7 +17,7 @@ This project was designed to provide a landing page for potential employers with
 ## Features
 
 - Developed using React with TypeScript.
-- Styled with Tailwind CSS for rapid UI design.
+- Styled with Tailwind CSS for rapid UI design
 
 ## Project Screen Shots
 
