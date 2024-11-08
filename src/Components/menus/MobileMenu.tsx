@@ -12,6 +12,11 @@ interface props {
 
 export default function MobileMenu({ selectedItem, setSelectedItem }: props) {
   const [isOpen, setIsOpen] = useState<boolean>(false);
+
+  const handleSelection = (selectedItem: MenuItem) => {
+    setSelectedItem(selectedItem);
+    setIsOpen(false);
+  };
   function renderMenuItems() {
     const navBar = MenuItems.menu.map((item, index) => {
       const selected = selectedItem === item;
@@ -21,7 +26,7 @@ export default function MobileMenu({ selectedItem, setSelectedItem }: props) {
           className={`max-w-[5rem] h-[2.5rem] mb-5 text-7 cursor-pointer 
           ${selected ? "text-white" : "text-[#878686]"}
           `}
-          onClick={() => setSelectedItem(item)}
+          onClick={() => handleSelection(item)}
         >
           {item.label}
         </div>
@@ -33,7 +38,7 @@ export default function MobileMenu({ selectedItem, setSelectedItem }: props) {
   return (
     <>
       <div
-        className="absolute top-2 left-[1rem]"
+        className="relative top-2 left-[1rem]"
         onClick={() => setIsOpen(!isOpen)}
       >
         <MenuIcon />
@@ -49,7 +54,7 @@ export default function MobileMenu({ selectedItem, setSelectedItem }: props) {
               <CrossIcon />
             </div>
             <div className="absolute right-8 top-[3.5rem]">
-              <Toggle label="Toggle theme" labelPosition="left" />
+              {/* <Toggle label="Toggle theme" labelPosition="left" /> */}
             </div>
           </div>
           <div className="mt-[3rem] pl-5">
@@ -59,9 +64,6 @@ export default function MobileMenu({ selectedItem, setSelectedItem }: props) {
             </div>
             <div className="h-content my-auto">
               <div className="h-content">{renderMenuItems()}</div>
-            </div>
-            <div className="text-4 text-[#878686] cursor-pointer mb-4">
-              Download CV
             </div>
           </div>
         </div>

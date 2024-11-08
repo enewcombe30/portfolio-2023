@@ -15,7 +15,7 @@ export default function Skills() {
           >
             {item.logo}
             <div
-              className={`relative h-fit min-h-[6rem] w-[18rem] rounded-sm p-3 bg-[#061c03] border border-green-600 border-opacity-10 text-sm`}
+              className={`h-fit min-h-[6rem] w-[18rem] rounded-sm p-3 bg-[#061c03] border border-green-600 border-opacity-10 text-sm`}
             >
               {item.label}
               <ul className="list-disc ml-4 mt-1 ">

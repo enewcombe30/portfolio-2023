@@ -3,7 +3,6 @@ import WelcomePage from "./Pages/Welcome/Welcome";
 import Experience from "./Pages/Experience/Experience";
 import BasicLayout from "./Pages/Layouts/BasicLayout";
 import Stack from "./Pages/Stack/Stack";
-import About from "./Pages/About/About";
 import { MenuItem } from "./types/type";
 import { MenuItems } from "./constants/menu";
 import Projects from "./Pages/Projects/Projects";

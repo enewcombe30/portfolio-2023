@@ -13,7 +13,7 @@ export default function StackModal({ stackItem, setOpen }: props) {
         className="h-screen w-screen bg-[#050f05] bg-opacity-70 fixed top-0 left-0"
         onClick={() => setOpen("")}
       >
-        <div className="w-fit h-fit p-4 z-60 bg-[#061c03] border-2 border-green-600 border-opacity-10 mx-auto mt-[10%] rounded">
+        <div className="w-fit h-fit p-4 z-40 bg-[#061c03] border-2 border-green-600 border-opacity-10 mx-auto xs:mt-[35%] md:mt-[10%] rounded">
           <div
             className="cursor-pointer relative left-[22.5rem]"
             onClick={() => setOpen("")}
