@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-2023/static/css/main.e6f27562.css",
-    "main.js": "/portfolio-2023/static/js/main.53dc1eb0.js",
+    "main.js": "/portfolio-2023/static/js/main.cd23a5eb.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio-2023/static/js/787.7da95b79.chunk.js",
     "static/media/portfolio-2021.png": "/portfolio-2023/static/media/portfolio-2021.ddcb0daa9a294554ef43.png",
     "static/media/UnderConstruction.png": "/portfolio-2023/static/media/UnderConstruction.f924d5783ef9dd58aa01.png",
@@ -11,11 +11,11 @@
     "static/media/cadenceLogo.png": "/portfolio-2023/static/media/cadenceLogo.3e32855607bd4563e77c.png",
     "index.html": "/portfolio-2023/index.html",
     "main.e6f27562.css.map": "/portfolio-2023/static/css/main.e6f27562.css.map",
-    "main.53dc1eb0.js.map": "/portfolio-2023/static/js/main.53dc1eb0.js.map",
+    "main.cd23a5eb.js.map": "/portfolio-2023/static/js/main.cd23a5eb.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio-2023/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6f27562.css",
-    "static/js/main.53dc1eb0.js"
+    "static/js/main.cd23a5eb.js"
   ]
 }
