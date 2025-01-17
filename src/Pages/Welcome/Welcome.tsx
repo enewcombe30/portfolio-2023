@@ -9,8 +9,7 @@ export default function WelcomePage() {
           Frontend Web Developer
         </div>
         <div className="xs:text-[0.825rem] sm:text-[1rem] md:text-[1.25rem] lg:text-[1.1] md:my-10 sm:my-6 xs:my-8">
-          Combining Javascript, Typescript, TailwindCSS and React to bring
-          websites to life!
+          Javascript | Typescript | TailwindCSS | React
         </div>
       </div>
     </div>
