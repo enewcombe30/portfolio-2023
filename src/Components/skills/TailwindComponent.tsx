@@ -1,5 +1,5 @@
 import { useState } from "react";
-import TailwindLogo from "../../Pages/Stack/constants/Svgs/TailwindLogo";
+import TailwindLogo from "../../constants/Svgs/TailwindLogo";
 
 interface props {
   tipPosition?: string;

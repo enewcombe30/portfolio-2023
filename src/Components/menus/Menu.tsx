@@ -1,28 +1,17 @@
+import Link from "next/link";
 import { MenuItems } from "../../constants/menu";
-import { MenuItem } from "../../types/type";
 
-interface props {
-  selectedItem: MenuItem;
-  setSelectedItem: (selectedItem: MenuItem) => void;
-}
-
-export default function Menu({ selectedItem, setSelectedItem }: props) {
+export default function Menu() {
   function renderMenuItems() {
-    const navBar = MenuItems.menu.map((item, index) => {
-      const selected = selectedItem === item;
-      return (
-        <div
-          key={index}
-          className={`max-w-[5rem] h-[2.5rem] pb-1 mb-2 text-sm cursor-pointer 
-          ${selected ? "text-white" : "text-[#878686] hover:text-[#b1afaf]"}
-          `}
-          onClick={() => setSelectedItem(item)}
-        >
-          {item.label}
-        </div>
-      );
-    });
-    return navBar;
+    return MenuItems.menu.map((item, index) => (
+      <Link
+        key={index}
+        href={item.route} // Make sure each item in MenuItems.menu has a `route` property like "/about"
+        className="block max-w-[5rem] h-[2.5rem] pb-1 mb-2 text-sm cursor-pointer text-[#878686] hover:text-[#b1afaf]"
+      >
+        {item.label}
+      </Link>
+    ));
   }
 
   return (
