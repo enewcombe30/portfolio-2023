@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx}",
-    "./src/Components/**/*.{js,ts,jsx,tsx}",
+    "./src/Components/**/*.{js,ts,jsx,tsx}", // Capital C if your folder is Components
     "./src/PageComponents/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
