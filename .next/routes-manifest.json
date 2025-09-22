@@ -2,8 +2,16 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "",
+  "basePath": "/portfolio-2023",
   "redirects": [
+    {
+      "source": "/portfolio-2023/",
+      "destination": "/portfolio-2023",
+      "basePath": false,
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^/portfolio-2023/$"
+    },
     {
       "source": "/:path+/",
       "destination": "/:path+",
@@ -14,7 +22,13 @@
   ],
   "headers": [],
   "rewrites": {
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/portfolio-2023//_next/:path+",
+        "destination": "/portfolio-2023/_next/:path+",
+        "regex": "^/portfolio-2023//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
+      }
+    ],
     "afterFiles": [],
     "fallback": []
   },
