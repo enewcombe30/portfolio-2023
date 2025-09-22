@@ -22,13 +22,7 @@
   ],
   "headers": [],
   "rewrites": {
-    "beforeFiles": [
-      {
-        "source": "/portfolio-2023//_next/:path+",
-        "destination": "/portfolio-2023/_next/:path+",
-        "regex": "^/portfolio-2023//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
-      }
-    ],
+    "beforeFiles": [],
     "afterFiles": [],
     "fallback": []
   },
