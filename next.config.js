@@ -1,8 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/portfolio-2023",
-  assetPrefix: "/portfolio-2023",
+  basePath: process.env.NODE_ENV === "production" ? "/portfolio-2023" : "",
+  assetPrefix: process.env.NODE_ENV === "production" ? "/portfolio-2023" : "",
   output: "export",
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
+  // Force cache busting
+  generateBuildId: () => "build-" + Date.now(),
 };
 
 module.exports = nextConfig;

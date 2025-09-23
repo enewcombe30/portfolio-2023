@@ -1,9 +1,10 @@
 import { Experience, WorkExperience } from "../types/type";
+import { getImagePath } from "../utils/paths";
 
 export const FERN: Experience = {
   name: "fern",
   label: "Fern",
-  image: "/images/fernLogo.png",
+  image: getImagePath("/images/fernLogo.png"),
   blurb:
     "Junior Developer for a start-up company building Automation Software designed to provide Ad agencies IFTTT functionality when managing Amazon Sellers and Brands. Building and maintaining frontend code and Designing, building and maintaining unit and end-to-end tests.",
   skills: [
@@ -37,7 +38,7 @@ export const FERN: Experience = {
 export const CADENCE_AUDIO: Experience = {
   name: "cadenceAudio",
   label: "Cadence Audio",
-  image: "/images/cadenceLogo.png",
+  image: getImagePath("/images/cadenceLogo.png"),
   blurb:
     "IT support for a High End Audio company Spearheading an Online Rebrand to tackle the loss of trade caused by COVID19 lockdowns. Maintaining a portfolio of 6 Wordpress websites including two e-commerce sites using WooCommerce and Bluepark.",
   skills: [

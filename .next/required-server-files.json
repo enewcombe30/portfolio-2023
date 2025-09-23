@@ -47,7 +47,7 @@
         256,
         384
       ],
-      "path": "/portfolio-2023/_next/image",
+      "path": "/portfolio-2023/_next/image/",
       "loader": "default",
       "loaderFile": "",
       "domains": [],
@@ -60,7 +60,7 @@
       "contentSecurityPolicy": "script-src 'none'; frame-src 'none'; sandbox;",
       "contentDispositionType": "attachment",
       "remotePatterns": [],
-      "unoptimized": false
+      "unoptimized": true
     },
     "devIndicators": {
       "position": "bottom-left"
@@ -74,7 +74,7 @@
     },
     "basePath": "/portfolio-2023",
     "sassOptions": {},
-    "trailingSlash": false,
+    "trailingSlash": true,
     "i18n": null,
     "productionBrowserSourceMaps": false,
     "excludeDefaultMomentLocales": true,
@@ -99,7 +99,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/Users/elijahnewcombe/Projects2023/portfolio",
+    "outputFileTracingRoot": "/Users/elijahnewcombe/Projects2023/portfolio-2023",
     "experimental": {
       "useSkewCookie": false,
       "cacheLife": {
@@ -288,10 +288,10 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.js",
     "turbopack": {
-      "root": "/Users/elijahnewcombe/Projects2023/portfolio"
+      "root": "/Users/elijahnewcombe/Projects2023/portfolio-2023"
     }
   },
-  "appDir": "/Users/elijahnewcombe/Projects2023/portfolio",
+  "appDir": "/Users/elijahnewcombe/Projects2023/portfolio-2023",
   "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",
