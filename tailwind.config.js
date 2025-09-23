@@ -1,6 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
+  safelist: [
+    "bg-green-500",
+    "text-xl",
+    "flex",
+    "grid",
+    "p-4",
+    "m-4",
+    "rounded",
+    "shadow",
+    "text-center",
+    "w-full",
+  ],
   theme: {
     screens: {
       xs: "200px",
