@@ -1,17 +1,27 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { MenuItems } from "../../constants/menu";
 
 export default function Menu() {
+  const router = useRouter();
+
   function renderMenuItems() {
-    return MenuItems.menu.map((item, index) => (
-      <Link
-        key={index}
-        href={item.route} // Make sure each item in MenuItems.menu has a `route` property like "/about"
-        className="block max-w-[5rem] h-[2.5rem] pb-1 mb-2 text-sm cursor-pointer text-[#878686] hover:text-[#b1afaf]"
-      >
-        {item.label}
-      </Link>
-    ));
+    return MenuItems.menu.map((item, index) => {
+      const isActive = router.pathname === item.route;
+      return (
+        <Link
+          key={index}
+          href={item.route}
+          className={`block max-w-[5rem] h-[2.5rem] pb-1 mb-2 text-sm cursor-pointer transition-colors ${
+            isActive
+              ? "text-green-600 font-medium"
+              : "text-[#878686] hover:text-[#b1afaf]"
+          }`}
+        >
+          {item.label}
+        </Link>
+      );
+    });
   }
 
   return (

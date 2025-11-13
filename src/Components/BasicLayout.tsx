@@ -13,7 +13,7 @@ export default function BasicLayout({ children }: props) {
     <div className={`w-full bg-[#050f05] bg-gradient-to-r from-[#4c8e43]`}>
       <div className="text-[#f0f5f0] h-full w-full fixed top-0 z-10">
         <div
-          className={`xs:block sm:hidden md:hidden xl:hidden fixed left-6 top-12`}
+          className={`xs:block sm:hidden md:hidden xl:hidden fixed left-6 top-12 z-50`}
         >
           <MobileMenu />
         </div>

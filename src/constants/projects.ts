@@ -4,17 +4,10 @@ import { getImagePath } from "../utils/paths";
 export const myProjects: projects = {
   projects: [
     {
-      name: "portfolio2021",
-      label: "2021 Portfolio",
-      logo: getImagePath("/images/portfolio-2021.png"),
-      link: "https://enewcombe30.github.io/Portfolio-2021/",
-      styles: "",
-    },
-    {
-      name: "pairGame",
-      label: "Pair Game",
-      logo: getImagePath("/images/pairgameLogo.png"),
-      link: "https://enewcombe30.github.io/Project-2-pair-game-2021/",
+      name: "flashPos",
+      label: "Flash POS",
+      logo: getImagePath("/images/flashPosHome.png"),
+      link: "https://github.com/enewcombe30/flash-pos",
       styles: "",
     },
     {
@@ -32,11 +25,18 @@ export const myProjects: projects = {
       styles: "",
     },
     {
-      name: "boardHeroes",
-      label: "Board Heroes",
-      logo: getImagePath("/images/UnderConstruction.png"),
-      link: "https://github.com/enewcombe30/board-heroes",
-      styles: "line-through",
+      name: "portfolio2021",
+      label: "2021 Portfolio",
+      logo: getImagePath("/images/portfolio-2021.png"),
+      link: "https://enewcombe30.github.io/Portfolio-2021/",
+      styles: "",
+    },
+    {
+      name: "pairGame",
+      label: "Pair Game",
+      logo: getImagePath("/images/pairgameLogo.png"),
+      link: "https://enewcombe30.github.io/Project-2-pair-game-2021/",
+      styles: "",
     },
   ],
 };
